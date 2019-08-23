@@ -1,5 +1,9 @@
 # Wii-Bluetooth-Replacement
 
+<p align="center">
+  <img src="PCB/Assembled.jpg" alt="ESP32 Wii Bluetooth Replacement" width="400"/>
+</p>
+
 This project is a full replacement for the Nintendo Wii's Bluetooth module. Emulation of the Bluetooth module is performed on the PIC32 based on [rnconrad's emulator](https://github.com/rnconrad/WiiBluetoothEmulator), while controller connectivity on the ESP32 is based on [btstack](https://github.com/bluekitchen/btstack).
 
 The device interfaces with various wireless controllers and emulates up to 4 virtual Wii Remotes to communicate with the Wii. Virtual Wii Remotes can be configured to have a Nunchuk, Classic Controller, or neither. Currently supported controllers are Wii Remote, Wii U Pro Controller, Joy-Con, and Switch Pro Controller. Joy-Con can also be used through wired functionality.
