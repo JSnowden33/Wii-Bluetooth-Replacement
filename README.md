@@ -8,6 +8,8 @@ This project is a full replacement for the Nintendo Wii's Bluetooth module. Emul
 
 The device interfaces with various wireless controllers and emulates up to 4 virtual Wii Remotes to communicate with the Wii. Virtual Wii Remotes can be configured to have a Nunchuk, Classic Controller, or neither. Currently supported controllers are Wii Remote, Wii U Pro Controller, Joy-Con, and Switch Pro Controller. Joy-Con can also be used through wired functionality.
 
+The PCB for this design can be purchased [here](https://oshpark.com/shared_projects/co8uBM0Z).
+
 ## Supported Features
 
 - Permanent syncing: Press the sync button on the ESP32 along with the sync button on any controllers you want to pair. The ESP32 will pair and store each controller's information so reconnection works smoothly. Joy-Con can also be paired by docking them to the ESP32.
