@@ -1,0 +1,13 @@
+Qty,Description,Value,Link
+1,SMD Capacitor 0603,1nF,Any - should be at least 6.3V tolerant
+1,SMD Capacitor 0603,22nF,Any - should be at least 6.3V tolerant
+2,SMD Capacitor 0603,0.1uF,Any - should be at least 6.3V tolerant
+3,SMD Capacitor 0603,1uF,Any - should be at least 6.3V tolerant
+3,SMD Capacitor 1206,10uF,Any - should be at least 6.3V tolerant
+3,SMD Resistor 0603,5kOhm,Any
+1,SMD Resistor 0603,12kOhm,Any
+1,1.8V Linear Regulator,RT9193-18GB,https://www.digikey.com/product-detail/en/richtek-usa-inc/RT9193-18GB/1028-1016-1-ND/2470075
+1,Logic Level Translator,TXS0104ERGYR,https://www.digikey.com/product-detail/en/texas-instruments/TXS0104ERGYR/296-20698-1-ND/1143682
+1,PIC32 Microcontroller,PIC32MX270F256B-50I/ML,https://www.digikey.com/product-detail/en/microchip-technology/PIC32MX270F256B-50I-ML/PIC32MX270F256B-50I-ML-ND/4902624
+1,ESP32 Microcontroller,ESP32-WROOM-32D,https://www.digikey.com/product-detail/en/espressif-systems/ESP32-WROOM-32D/1904-1023-1-ND/9381732
+1,8MHz Oscillator,ASEM1-8.000MHZ-LC-T,https://www.digikey.com/product-detail/en/abracon-llc/ASEM1-8.000MHZ-LC-T/535-9754-1-ND/1873288

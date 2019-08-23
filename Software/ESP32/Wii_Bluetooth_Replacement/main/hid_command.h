@@ -1,0 +1,56 @@
+#ifndef _HID_COMMAND_H_
+#define	_HID_COMMAND_H_
+
+#include "hid_controller.h"
+
+extern const hid_command_t cmd_joycon_report_mode_full; 
+extern const hid_command_t cmd_joycon_report_mode_standard;
+extern const hid_command_t cmd_joycon_enable_imu;
+extern const hid_command_t cmd_joycon_get_device_info;
+extern const hid_command_t cmd_joycon_read_cal_imu_factory;
+extern const hid_command_t cmd_joycon_read_cal_joy_l_factory;
+extern const hid_command_t cmd_joycon_read_cal_joy_r_factory;
+extern const hid_command_t cmd_joycon_read_cal_imu_user;
+extern const hid_command_t cmd_joycon_read_cal_joy_l_user;
+extern const hid_command_t cmd_joycon_read_cal_joy_r_user;
+extern const hid_command_t cmd_joycon_write_cal_accel_user;
+extern const hid_command_t cmd_joycon_write_cal_gyro_user;
+extern const hid_command_t cmd_joycon_write_magic_imu_user;
+extern const hid_command_t cmd_joycon_write_cal_joy_l_user;
+extern const hid_command_t cmd_joycon_write_cal_joy_r_user;
+extern const hid_command_t cmd_joycon_reset_pair_info;
+extern const hid_command_t cmd_joycon_pair_begin;
+extern const hid_command_t cmd_joycon_pair_get_key;
+extern const hid_command_t cmd_joycon_pair_save_key;
+extern const hid_command_t cmd_joycon_set_player_leds;
+extern const hid_command_t cmd_joycon_enable_rumble;
+extern const hid_command_t cmd_joycon_rumble;
+
+extern const hid_command_t cmd_wiimote_get_status;
+extern const hid_command_t cmd_wiimote_rumble;
+extern const hid_command_t cmd_wiimote_report_mode_buttons;
+extern const hid_command_t cmd_wiimote_report_mode_acc;
+extern const hid_command_t cmd_wiimote_report_mode_ext8;
+extern const hid_command_t cmd_wiimote_report_mode_acc_ir12;
+extern const hid_command_t cmd_wiimote_report_mode_ext19;
+extern const hid_command_t cmd_wiimote_report_mode_acc_ext16;
+extern const hid_command_t cmd_wiimote_report_mode_ir10_ext9;
+extern const hid_command_t cmd_wiimote_report_mode_acc_ir10_ext6;
+extern const hid_command_t cmd_wiimote_report_mode_ext21;
+extern const hid_command_t cmd_wiimote_set_player_leds;
+extern const hid_command_t cmd_wiimote_read_extension_id;
+extern const hid_command_t cmd_wiimote_read_wmp_id;
+extern const hid_command_t cmd_wiimote_setup_extension_1;
+extern const hid_command_t cmd_wiimote_setup_extension_2;
+extern const hid_command_t cmd_wiimote_setup_wmp;
+extern const hid_command_t cmd_wiimote_activate_wmp;
+extern const hid_command_t cmd_wiimote_activate_wmp_passthrough_nunchuk;
+extern const hid_command_t cmd_wiimote_activate_wmp_passthrough_classic;
+extern const hid_command_t cmd_wiimote_read_cal_extension;
+extern const hid_command_t cmd_wiimote_read_cal_wmp;
+extern const hid_command_t cmd_wiimote_read_cal_accel;
+extern const hid_command_t cmd_wiimote_write_cal_wmp;
+extern const hid_command_t cmd_wiimote_write_cal_extension;
+extern const hid_command_t cmd_wiimote_write_cal_accel;
+
+#endif

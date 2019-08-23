@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TXS0104E
+D Bidirectional  level-shifting voltage translator, TSSOP-20
+K 8-bit
+F www.ti.com/lit/ds/symlink/txs0108e.pdf
+$ENDCMP
+#
+#End Doc Library
