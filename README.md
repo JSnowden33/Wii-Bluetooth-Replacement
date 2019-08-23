@@ -1,3 +1,5 @@
+![ESP32 Wii Bluetooth Replacement](/PCB/Assembled.jpg)
+
 # Wii-Bluetooth-Replacement
 
 This project is a full replacement for the Nintendo Wii's Bluetooth module. Emulation of the Bluetooth module is performed on the PIC32 based on [rnconrad's emulator](https://github.com/rnconrad/WiiBluetoothEmulator), while controller connectivity on the ESP32 is based on [btstack](https://github.com/bluekitchen/btstack).
