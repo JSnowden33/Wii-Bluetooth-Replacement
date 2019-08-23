@@ -22,6 +22,8 @@ The device interfaces with various wireless controllers and emulates up to 4 vir
 
 - More wired Joy-Con functionality: Wired Joy-Con are not well tested and implementation is unfinished. They currently do not support virtual extensions or rumble. 
 
+- Wii Motion Plus: Motion Plus emulation is mostly implemented but not tested. It should be functional on any controller with a gyroscope.
+
 ## Known Issues
 
 This project is experimental and has plenty of bugs. Below is a list of some important issues that still need fixing.
