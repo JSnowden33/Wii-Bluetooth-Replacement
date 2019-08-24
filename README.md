@@ -50,7 +50,7 @@ This project is experimental and has plenty of bugs. Below is a list of some imp
 
 ## Joy-Con Wiring
 
-The Joy-Con wired connection follows the pin number provided [here](https://github.com/dekuNukem/Nintendo_Switch_Reverse_Engineering). On each Joy-Con, the pin names vs. pin numbers are as follow:
+The Joy-Con wired connection follows the pin numbering provided [here](https://github.com/dekuNukem/Nintendo_Switch_Reverse_Engineering). On each Joy-Con, the pin names vs. pin numbers are as follows:
 
 - 5V: Pin 4
 - TX: Pin 5
@@ -59,7 +59,8 @@ The Joy-Con wired connection follows the pin number provided [here](https://gith
 - RX: Pin 8
 - FC2: Pin 10
 
-If a Joy-Con rail connector is wired to the board, pins 1, 2, 3, and 7 on the rail should be grounded. Pin 9 should be left unconnected. Connecting 5V to pin 4 for charging is optional. When assembling the board, components U1, U2, C3, C4, and C6 are used only for Joy-Con connectivity and can be left off if wired Joy-Con will not be used.
+If a Joy-Con rail connector is wired to the board, pins 1, 2, 3, and 7 on the rail should be grounded. Pin 9 should be left unconnected. Connecting 5V to pin 4 for charging is optional. Note that having 5V active on the rail at all times may be unsafe if the connection isn't tight. 
+When assembling the board, components U1, U2, C3, C4, and C6 are used only for Joy-Con connectivity and can be left off if wired Joy-Con will not be used.
 
 ## Compiling and Programming
 
